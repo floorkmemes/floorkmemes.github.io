@@ -125,10 +125,12 @@ export default function FlorkMemBank() {
     <div style={{ fontFamily: FONT_FAMILY }} className={`min-h-screen ${bgClass} transition-colors duration-300`}>
       {/* Header */}
       <Snowfall color="#82C3D9" snowflakeCount={100}/>
+      <Confetti/>
       <div className={`sticky top-0 z-50 ${bgClass} border-b ${borderClass} transition-colors duration-300`}>
         <div className="max-w-6xl mx-auto px-6 py-8">
           {/* Toggle tema */}
 	  <Snowfall color="#82C3D9" snowflakeCount={100}/>
+	  </Confetti>
           <div className="flex justify-end mb-6">
             <button
               onClick={() => setIsDark(!isDark)}
